@@ -1,0 +1,9 @@
+@EndUserText.label: 'ZSALES_BOM_DEF'
+define service ZSALES_BOM_DEF {
+  expose ZSALES_BOM_CUBE     as SOData;
+  expose zmaterial_f4_cds    as Component_F4;
+  expose ZSO_GREY_STOCK      as SOComponent_F4;
+  expose Zrouting_Group_Data as OperationsGroup_F4;
+  expose ZPV_GROUP_F4        as PVGroup_F4;
+  expose ZLAST_PV_F4         as PV_F4;
+}
